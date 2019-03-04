@@ -4,7 +4,8 @@
     "projects": [
       {
         "id": 0,
-        "project_name": "Random Quote Generator",
+        "project_name": "Random Generator",
+        "description": "Generates a random quote upon click event and timeout.",
         "technologies": ["Javascript", "HTML", "CSS"],
         "live_link": "https://stacyrays.github.io/techdegree-project-1/",
         "github_link": "https://github.com/stacyrays/techdegree-project-1",
@@ -15,7 +16,8 @@
       },
       {
         "id": 1,
-        "project_name": "List Pagination",
+        "project_name": "Pagination",
+        "description": "Break listing out into pages, with 10 listings per page. Include pagination buttons at the bottom to click through the pages. Also have a search box to find particular names.",
         "technologies": ["Javascript", "HTML", "CSS"],
         "live_link": "https://stacyrays.github.io/techdegree-project-2/",
         "github_link": "https://github.com/stacyrays/techdegree-project-2",
@@ -26,8 +28,9 @@
       },
       {
         "id": 2,
-        "project_name": "List Pagination",
-        "technologies": ["Javascript", "HTML", "CSS"],
+        "project_name": "Registration Form",
+        "description": "Registration form with error functionality and regular expressions.",
+        "technologies": ["jQuery", "HTML", "CSS"],
         "live_link": "https://stacyrays.github.io/techdegree-project-2/",
         "github_link": "https://github.com/stacyrays/techdegree-project-2",
         "image_urls": [

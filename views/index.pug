@@ -5,7 +5,7 @@ block content
     div
 
       //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
-      h1 Projects for School
+      h1 Coding Projects
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's suppossed to accomplish, etc. 
       p.lead.text-light
@@ -25,7 +25,7 @@ block content
       //- Here's what the Pug for each project example should look like. 
       
       each project, index in projects
-        cell
+        .cell
           a(href='#')
             img.thumbnail(src=`${projects[index].image_urls[0]}`)
             h5 #{projects[index].project_name}

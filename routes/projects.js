@@ -4,7 +4,8 @@ const { data } = require("../data/projectData.json");
 const { projects } = data;
 
 router.get("/", (req, res) => {
-  res.render("project");
+  const templateData = { projects };
+  res.render("project", templateData);
 });
 
 module.exports = router;
