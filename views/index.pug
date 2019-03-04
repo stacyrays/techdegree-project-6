@@ -26,7 +26,7 @@ block content
       
       each project, index in projects
         .cell
-          a(href='#')
+          a(href=`/projects/${index}`)
             img.thumbnail(src=`${projects[index].image_urls[0]}`)
             h5 #{projects[index].project_name}
 

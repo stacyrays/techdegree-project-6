@@ -11,7 +11,7 @@
         "github_link": "https://github.com/stacyrays/techdegree-project-1",
         "image_urls": [
           "static/images/quote550x550.jpg",
-          "static/images/quote1200x550.jpg"
+          "../static/images/quote1200x550.jpg"
         ]
       },
       {
@@ -23,7 +23,7 @@
         "github_link": "https://github.com/stacyrays/techdegree-project-2",
         "image_urls": [
           "static/images/list_pagination550x550.jpg",
-          "static/images/list_pagination1200x550.jpg"
+          "../static/images/list_pagination1200x550.jpg"
         ]
       },
       {
@@ -35,7 +35,7 @@
         "github_link": "https://github.com/stacyrays/techdegree-project-2",
         "image_urls": [
           "static/images/forms550x550.jpg",
-          "static/images/forms1200x550.jpg"
+          "../static/images/forms1200x550.jpg"
         ]
       }
     ]
