@@ -20,6 +20,18 @@ app.get("/about", (req, res) => {
   res.render("about");
 });
 
+app.use((req, res, next) => {
+  const err = new Error("Page not found.");
+  err.status = 404;
+  next(err);
+});
+
+app.use((err, req, res, next) => {
+  res.locals.error = err;
+  res.status(err.status);
+  res.render("error");
+});
+
 app.listen(3000, () => {
   console.log("The application is running on localhost:3000!");
 });
