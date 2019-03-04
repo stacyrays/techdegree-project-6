@@ -9,21 +9,17 @@ app.use(cookieParser());
 app.use("/static", express.static("public"));
 
 app.set("view engine", "pug");
-const { data } = require("data/projectsData.json");
-const { projects } = data;
 
-app.listen(3000, () => {
-  console.log("The application is running on localhost:3000!");
-});
+const mainRoutes = require("./routes");
+const projectRoutes = require("./routes/projects");
 
-app.get("/", (req, res) => {
-  res.render("index");
-});
+app.use(mainRoutes);
+app.use("/projects", projectRoutes);
 
 app.get("/about", (req, res) => {
   res.render("about");
 });
 
-app.get("/project", (req, res) => {
-  res.render("project");
+app.listen(3000, () => {
+  console.log("The application is running on localhost:3000!");
 });
