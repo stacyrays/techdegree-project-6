@@ -29,13 +29,37 @@
       {
         "id": 2,
         "project_name": "Registration Form",
-        "description": "Registration form with error functionality and regular expressions.",
+        "description": "Registration form that error checks and uses regular expressions.",
         "technologies": ["jQuery", "HTML", "CSS"],
-        "live_link": "https://stacyrays.github.io/techdegree-project-2/",
-        "github_link": "https://github.com/stacyrays/techdegree-project-2",
+        "live_link": "https://stacyrays.github.io/techdegree-project-3/",
+        "github_link": "https://github.com/stacyrays/techdegree-project-3",
         "image_urls": [
           "static/images/forms550x550.jpg",
           "../static/images/forms1200x550.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "project_name": "Object-Oriented Javascript",
+        "description": "Word game using Javascript classes and methods.",
+        "technologies": ["jQuery", "HTML", "CSS", "ajax"],
+        "live_link": "https://stacyrays.github.io/techdegree-project-4/",
+        "github_link": "https://github.com/stacyrays/techdegree-project-4",
+        "image_urls": [
+          "static/images/oop550x550.jpg",
+          "../static/images/oop1200x550.jpg"
+        ]
+      },
+      {
+        "id": 4,
+        "project_name": "API Fetching",
+        "description": "Created an employeed directory with random api fetching.",
+        "technologies": ["jQuery", "HTML", "CSS", "ajax"],
+        "live_link": "https://stacyrays.github.io/techdegree-project-5/",
+        "github_link": "https://github.com/stacyrays/techdegree-project-5",
+        "image_urls": [
+          "static/images/api550x550.jpg",
+          "../static/images/api1200x550.jpg"
         ]
       }
     ]
