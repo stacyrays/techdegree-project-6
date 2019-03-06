@@ -20,6 +20,7 @@ app.get("/about", (req, res) => {
   res.render("about");
 });
 
+//Error code below mirrors mostly what we did in the tutorial videos
 app.use((req, res, next) => {
   const err = new Error("Page not found.");
   err.status = 404;
